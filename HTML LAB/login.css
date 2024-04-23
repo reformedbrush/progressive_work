@@ -1,11 +1,21 @@
 body{
-    padding-left: 20px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
     font-family: "Abel", sans-serif;
     font-style: normal;
+    padding-top: 200px;
+
+}
+
+label{
+    width: 100px;
+    display: inline-block;
 }
 
 .sign{
-    width:250px;
+    margin: auto;
+    width: 300px;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -15,5 +25,4 @@ body{
 .login1{
     /*float: right;
     width: 100px;*/
-
 }
