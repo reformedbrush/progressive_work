@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="details">
+        First Name:<input type="text" name="f_name" value="Enter first name"><br>
+        Last Name:<input type="text" name="l_name" value="Enter last name"><br>
+        Gender:<input type="radio" name="m" value="Male">Male
+        <input type="radio" name="m" value="Female">Female<br>
+        E-mail:<input type="email" name="mail" value="Enter your mail"><br>
+        Contact:<input type="number" name="Contact" value="Enter Contact"><br>
+        DOB:<input type="date" name="dob"><br>
+        Age:<input type="number" name="age"><br>
+        Password:<input type="password" name="password"><br>
+        Confirm Password:<input type="password" name="password"><br><br>
+        Security Question:<select name="SecQ">
+            <option value="q1">What is your favourite color?</option>
+            <option value="q2">What is your pet name?</option>
+            <option value="q3">Where is your home?</option>
+        </select><br>
+        Answer:<input type="text" name="Answer"><br><br>
+        Photo:<input type="file" name="pro_pic">
+        <input type="submit" name="btn" value="Submit"><br><br>
+        Proof:<input type="file" name="proof">
+        <input type="submit" name="btn" value="Submit">
+    </div>
+    <div class="terms"><br><br>
+        <input type="checkbox" name="terms">I accept the terms & conditions
+    </div>
+    <div class="submit">
+        <input type="submit" name="btn" value="Submit">
+        <input type="submit" name="btn" value="Cancel">
+    </div>
+</body>
+</html>
