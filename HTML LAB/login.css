@@ -1,3 +1,19 @@
 body{
     padding-left: 20px;
+    font-family: "Abel", sans-serif;
+    font-style: normal;
+}
+
+.sign{
+    width:250px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login1{
+    /*float: right;
+    width: 100px;*/
+
 }
