@@ -2,6 +2,7 @@ body{
     font-family: "Abel", sans-serif;
     font-style: normal;
     padding-left:20px ;
+    margin: 0;
 }
 
 .h1{
@@ -39,4 +40,54 @@ label{
 .footer{
     text-align: center;
     margin-top: 150px;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    font-family: "Abel", sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+ 
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: rgb(5, 46, 136);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button{
+     background-color: rgb(10, 33, 83);
+     margin-left: 10px;
+     border-radius: 10px;
+     padding: 10px;
+     width: 90px;
+     
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+*{
+    text-decoration: none;
 }

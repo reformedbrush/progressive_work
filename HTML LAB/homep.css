@@ -2,11 +2,16 @@
     text-decoration: none;
 }
 
+body{
+    margin: 0;
+}
+
 .navbar{
-    background: rgb(201, 255, 5);
+    background-color: white;
     font-family: "Abel", sans-serif;
     padding-right: 15px;
     padding-left: 15px;
+    margin: auto;
 }
  
 .navdiv{
@@ -14,4 +19,66 @@
     align-items: center;
     justify-content: space-between;
 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: rgb(5, 46, 136);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button{
+     background-color: rgb(10, 33, 83);
+     margin-left: 10px;
+     border-radius: 10px;
+     padding: 10px;
+     width: 90px;
+     
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.about{
+    margin-left: 500px;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(10,33,83);
+    border-style:hidden;
+    border-radius: 10px;
+}
+
+.about p{
+    font-family: "Abel", sans-serif;
+    font-size:x-large;
+    color: white;
+    padding: 10px;
+}
+
+.about button{
+    margin-left: 390px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.about button a{
+    color: black;
+    font-family: "Abel";
+}
+
+.image_slide{
+    width: 1900;
+
+}
+footer{
+    text-align: center;
 }
