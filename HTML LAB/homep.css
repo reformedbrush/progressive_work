@@ -4,6 +4,12 @@
 
 body{
     margin: 0;
+    background-image: url(./images/nirmala-banner-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+
 }
 
 .navbar{
@@ -49,8 +55,9 @@ button a{
 }
 
 .about{
-    margin-left: 500px;
-    align-items: center;
+    position: relative;
+    top: 245px;
+    margin: auto;
     width: 500px;
     background-color: rgb(10,33,83);
     border-style:hidden;
@@ -75,10 +82,11 @@ button a{
     font-family: "Abel";
 }
 
-.image_slide{
-    width: 1900;
-
-}
 footer{
+    margin-top: 250px;
     text-align: center;
+}
+
+footer p{
+    color: white;
 }
